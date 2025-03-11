@@ -1,0 +1,65 @@
+[
+  {
+    "id": 10,
+    "name": "Dev Data",
+    "type": "data",
+    "description": "Holds un-aggregated Development/Test data - usually stored in QVD format.",
+	"folders": [
+      {
+        "name": "Raw",
+        "description": "Data exactly as extracted from the source system unmodified"
+      },
+      {
+        "name": "Combined",
+        "description": "Conformed and merged data from multiple source systems"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Dev Transform",
+    "type": "data",
+    "description": "Holds Fact and Dimension tables ready for use by the business users, Star Schema. All business logic should be applied in this data.",
+	"folders": [
+      {
+        "name": "Fact",
+        "description": ""
+      },
+      {
+        "name": "Dimension",
+        "description": ""
+      }
+    ]
+ },
+  {
+    "id": 30,
+    "name": "Prod Data",
+    "description": "Holds un-aggregated Production data - usually stored in QVD format.",
+	"folders": [
+      {
+        "name": "Raw",
+        "description": "Data exactly as extracted from the source system unmodified"
+      },
+      {
+        "name": "Combined",
+        "description": "Conformed and merged data from multiple source systems"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Prod Transform",
+    "type": "data",
+    "description": "Holds Fact and Dimension tables ready for use by the business users, Star Schema. All business logic should be applied in this data.",
+	"folders": [
+      {
+        "name": "Fact",
+        "description": ""
+      },
+      {
+        "name": "Dimension",
+        "description": ""
+      }
+    ]
+  },
+ ]
