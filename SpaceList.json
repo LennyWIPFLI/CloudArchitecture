@@ -1,4 +1,4 @@
-{ "list": [
+[{ "list": [
 	"space": {
 		"id": 10,
 		"name": "Dev Data",
@@ -42,4 +42,4 @@
 		{"name": "Dimension",
 			"description": ""}]
 		}
-]}
+]}]
