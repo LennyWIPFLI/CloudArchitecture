@@ -1,6 +1,6 @@
 [
 	{ "list": [
-	{"space": {
+	"space": {
 		"id": 10,
 		"name": "Dev Data",
 		"type": "data",
@@ -10,8 +10,8 @@
 				"description": "Data exactly as extracted from the source system unmodified"},
 			{"name": "Combined",
 				"description": "Conformed and merged data from multiple source systems"}]
-		}},
-	{"space": {
+		},
+	"space": {
 		"id": 20,
 		"name": "Dev Transform",
 		"type": "data",
@@ -21,8 +21,8 @@
 			"description": ""},
 		{"name": "Dimension",
 			"description": ""}]
-		}},
-	{"space": {
+		},
+	"space": {
 		"id": 30,
 		"name": "Prod Data",
 		"description": "WipfliDefault: Holds un-aggregated Production data - usually stored in QVD format.",
@@ -31,8 +31,8 @@
 			"description": "Data exactly as extracted from the source system unmodified"},
 		{"name": "Combined",
 			"description": "Conformed and merged data from multiple source systems"}]
-		}},
-	{"space": {
+		},
+	"space": {
 		"id": 40,
 		"name": "Prod Transform",
 		"type": "data",
@@ -42,6 +42,6 @@
 			"description": ""},
 		{"name": "Dimension",
 			"description": ""}]
-		}}
+		}
 	]
 }]
