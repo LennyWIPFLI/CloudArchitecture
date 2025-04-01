@@ -2,6 +2,15 @@
 	{ "allspaces": [
 	{"space": {
 		"id": 10,
+		"name": "Test",
+		"type": "data",
+		"description": "WipfliDefault: Test Space.",
+		"folders":[
+			{"name": "Test",
+				"description": "Test Folder"}]
+		}},
+	{"space": {
+		"id": 10,
 		"name": "Dev Data",
 		"type": "data",
 		"description": "WipfliDefault: Holds un-aggregated Development/Test data - usually stored in QVD format.",
