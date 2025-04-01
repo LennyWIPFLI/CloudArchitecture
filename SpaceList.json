@@ -34,6 +34,7 @@
 	{"space": {
 		"id": 30,
 		"name": "Prod Data",
+		"type": "data",
 		"description": "WipfliDefault: Holds un-aggregated Production data - usually stored in QVD format.",
 		"folders":[
 		{"name": "Raw",
